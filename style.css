@@ -1,0 +1,103 @@
+
+
+/*# sourceMappingURL=style.css.map */
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #4c4c4c;
+    background-color: #ffffff;
+    margin: 0;  
+}
+
+.contents-center
+{
+    text-align: center;
+    margin: 0px;
+}
+
+.flexible-images {
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+　padding: 0px;
+
+}
+
+.title{
+    font-size: 2rem;
+    line-height: normal;
+    letter-spacing: 5px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+
+.container {
+  display: flex;
+  margin: 50px;
+  flex-direction: row;
+}
+
+.box {
+  background-color: skyblue;
+  height: 400px;
+  margin: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+
+.box-title{
+    margin: 1px;
+    background-color: white;
+    height: 50px;
+}
+
+
+.box-text{
+    margin: 30px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 10px;
+    font-size: 1.2rem;
+  }
+}
+
+
+footer
+{
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #4c4c4c;
+    margin-top: 100px;
+    font-size: 1rem;
+}
+
+.footer-text{
+    margin-top: 20px;
+    
+}
+
+.button{
+    font-size: 1rem;
+    display: block;
+    width: 180px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    background-color: skyblue;
+}
