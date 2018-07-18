@@ -66,6 +66,9 @@ body
     margin: 10px;
     font-size: 1.2rem;
   }
+  .box-background{
+     height: 250px;
+  }
 }
 
 
