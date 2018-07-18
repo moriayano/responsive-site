@@ -13,19 +13,16 @@ body
     margin: 0;  
 }
 
-.contents-center
-{
-    text-align: center;
-    margin: 0px;
+
+
+.box-background{
+    background-image: url(./images/img_top.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
-.flexible-images {
-  max-width: 100%;
-  height: auto;
-  margin: 0px;
-　padding: 0px;
-
-}
 
 .title{
     font-size: 2rem;
@@ -33,6 +30,7 @@ body
     letter-spacing: 5px;
     margin: 30px;
     margin-top: 50px;
+    text-align: center;
 }
 
 
